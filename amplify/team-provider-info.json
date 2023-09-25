@@ -1,0 +1,34 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-ytbsentiment-dev-172058-authRole",
+      "UnauthRoleArn": "arn:aws:iam::925436709403:role/amplify-ytbsentiment-dev-172058-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::925436709403:role/amplify-ytbsentiment-dev-172058-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-ytbsentiment-dev-172058-deployment",
+      "UnauthRoleName": "amplify-ytbsentiment-dev-172058-unauthRole",
+      "StackName": "amplify-ytbsentiment-dev-172058",
+      "StackId": "arn:aws:cloudformation:us-east-2:925436709403:stack/amplify-ytbsentiment-dev-172058/9cfb7be0-49d6-11ee-8894-029c65e1ea0d",
+      "AmplifyAppId": "d1b93jnmetxdyv"
+    },
+    "categories": {
+      "function": {
+        "CustomerHandler": {
+          "deploymentBucketName": "amplify-ytbsentiment-dev-172058-deployment",
+          "s3Key": "amplify-builds/CustomerHandler-69732f32396f72345466-build.zip"
+        },
+        "ytAnalyze": {
+          "deploymentBucketName": "amplify-ytbsentiment-dev-172058-deployment",
+          "s3Key": "amplify-builds/ytAnalyze-6d66334f30684b4a5164-build.zip"
+        },
+        "ytsentiment": {
+          "deploymentBucketName": "amplify-ytbsentiment-dev-172058-deployment",
+          "s3Key": "amplify-builds/ytsentiment-4a6c775a6e5333375245-build.zip"
+        }
+      },
+      "api": {
+        "apiyt": {}
+      }
+    }
+  }
+}

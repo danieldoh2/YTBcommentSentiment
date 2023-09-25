@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "paths": {
+    "/analyze/{videoID}": {
+      "name": "/analyze/{videoID}",
+      "lambdaFunction": "ytsentiment",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/commentlist": {
+      "name": "/commentlist",
+      "lambdaFunction": "ytsentiment",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}

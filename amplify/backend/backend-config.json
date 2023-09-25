@@ -1,0 +1,85 @@
+{
+  "api": {
+    "apiyt": {
+      "dependsOn": [
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "ytsentiment"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "API Gateway"
+    }
+  },
+  "function": {
+    "CustomerHandler": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
+    "ytAnalyze": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
+    "ytsentiment": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    }
+  },
+  "parameters": {
+    "AMPLIFY_function_CustomerHandler_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "CustomerHandler"
+        }
+      ]
+    },
+    "AMPLIFY_function_CustomerHandler_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "CustomerHandler"
+        }
+      ]
+    },
+    "AMPLIFY_function_ytAnalyze_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "ytAnalyze"
+        }
+      ]
+    },
+    "AMPLIFY_function_ytAnalyze_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "ytAnalyze"
+        }
+      ]
+    },
+    "AMPLIFY_function_ytsentiment_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "ytsentiment"
+        }
+      ]
+    },
+    "AMPLIFY_function_ytsentiment_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "ytsentiment"
+        }
+      ]
+    }
+  }
+}

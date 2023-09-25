@@ -1,0 +1,41 @@
+/* CommentTable.css */
+
+.comment-table {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .comment-table h2 {
+    color: #ff0000; /* Red text color */
+  }
+  
+  .comment-table table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .comment-table th,
+  .comment-table td {
+    border: 1px solid #000000; /* Black border */
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .comment-table th {
+    background-color: #ff0000; /* Red header background */
+    color: #ffffff; /* White text color */
+  }
+  
+  .comment-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2; /* Light gray background for even rows */
+  }
+  
+  .comment-table tbody tr:hover {
+    background-color: #ffcccc; /* Light red background on hover */
+  }
+  
+  /* Add any additional styles here to match the YouTube theme */
+  

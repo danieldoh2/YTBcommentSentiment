@@ -15,6 +15,7 @@ function App() {
       <main>
         <div className="container">
           <InputForm />
+          <CommentTable />
           {/* <CommentTable comments={comments} /> Render the CommentTable component */}
         </div>
       </main>
